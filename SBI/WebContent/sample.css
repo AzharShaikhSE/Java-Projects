@@ -1,0 +1,296 @@
+#container
+{
+	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
+}
+#container1
+{
+	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
+}
+
+#header
+{
+	background: #ccfff;
+	/*  padding: 60px;*/
+	text-align:left;
+	
+ }
+div.img img
+{
+	margin:5px;
+	padding:5px;
+	
+	float:left;
+	text-align:center;
+}
+
+#header h1 { margin: 0; } 
+
+#navigation
+{
+	float: left;
+	width: 1000px;
+	background: #333;
+	
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container
+{	
+            background-color:#fff;;
+            background-position: center; 
+            background-size: auto 700px;
+            background-repeat: no-repeat;
+            text-align:center;
+            width:100%;
+            height:auto; 
+            margin:110px 0px 0px 0px; 
+            padding:0;
+			background:url("images/sbilogin.png") no-repeat; 
+			
+		    overflow:hidden;
+	
+
+	
+	/*  background: #fff url(/wp-content/uploads/layout-three-fixed-background.gif) repeat-y 100% 0;*/
+
+	
+	
+	
+	
+}
+
+#section-navigation
+{
+	float: left;
+	width: 160px;
+	padding: 20px 0;
+	margin: 0 20px;
+	display: inline;
+}
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+}
+
+#content
+{	
+float: right;
+position: relative;
+top: 0px;
+right:50px;
+width: 500px;
+padding: 5px 0;
+margin: 5px 0 0 30px;
+/* border: 1px solid green; */
+z-index: 2;
+overflow: hidden;
+}
+
+
+#content h2 { text-align:center; }
+
+.login 
+{
+  margin: 5px auto;
+  padding: 5px 5px;
+  width: 350px;
+  background: transparent;
+  background-clip: padding-box;
+   /* border: 1px solid #172b4e; */ 
+  border-bottom-color: #142647;
+  border-radius: 5px;
+  font-family: "Lucida Console";
+  color:#000000;
+  text-align:left;
+  font-size: 20px;
+  
+}
+/*   .login h1 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    text-shadow: 0 -1px rgba(black, .4);
+  }
+ */
+
+.login-input {
+  display: block;
+  width: 300px;
+  height: 27px;
+  margin-bottom: 20px;
+  padding: 0 floor(37px / 4);
+  color: #000000;
+  text-shadow: 0 1px black;
+  background: transparent;
+  border: 1px solid #15243b;
+  border-top-color: #0d1827;
+  border-radius: 4px;
+
+}
+.login-submit {
+  display: block;
+  width: 100px;
+  height: 27px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #294779;
+  text-align: center;
+  text-shadow: 0 1px rgba(white, .3);
+  background: #adcbfa;
+  background-clip: padding-box;
+  border: 1px solid #284473;
+  border-bottom-color: #223b66;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* 
+#aside
+{
+	float: right;
+	width: 200px;
+	padding: 20px 0;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+
+#aside h3 { margin: 0; } */
+
+#footer
+{	
+	float:left;
+	overflow:hidden;
+	border-top:2px solid #6cc;
+	padding:0px;
+	margin-left:500px;
+	margin-top:40px;
+	height: 1%;
+}
+
+
+#content-container1{	
+            float:left;
+            overflow:hidden;
+            position:relative;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background-color:#fff;;
+            background-position: center; 
+            background-size: auto 700px;
+            background-repeat: no-repeat;
+           	width:100%;
+            height:auto; 
+            margin:10px 0px 0px 0px; 
+            padding:0;
+			background:url("images/sbilogin.png") no-repeat;	
+}
+
+#content-container1 #content-left1{
+float:left;
+overflow:hidden;
+}
+
+#content1{
+	float:right;
+	margin-right:160px;
+	}
+	
+#footer1
+{	
+	float:left;
+	overflow:hidden;
+	border-top:2px solid #6cc;
+	padding:0px;
+	margin-left:350px;
+	margin-top:40px;
+	height: 1%;
+}
+
+
+	
+#content-container2
+{	
+           /*  background-color:#fff;;
+            background-position: center; 
+            background-size: auto 700px;
+            background-repeat: no-repeat;
+            text-align:center; */
+            width:100%;
+            height:auto; 
+            margin:10px 0px 0px 0px; 
+            padding:0;
+			/*  background:url("images/sbilogin.png") no-repeat; */ 
+			overflow:hidden;
+}
+#content-container2 #content-left2{
+float:left;
+overflow:hidden;
+}
+
+#content-container2 #content-left2 {
+	float:left;
+	overflow:hidden;
+	}
+table.assign_action{
+float:left;
+overflow:hidden;
+
+}
+#content2{
+}
+
+
+#content-container45{
+	background-color:#fff;;
+            
+            width:100%;
+            height:auto; 
+            margin:0px 0px 0px 0px; 
+            overflow:hidden;
+	
+	
+	}
+#content-container45 img{
+width:400px;
+}	
+	
