@@ -1,0 +1,73 @@
+Execution Steps:
+Operating System : Windows
+Language : Java
+
+Steps :
+1.To start the project double click "GasPumpDemo.exe".
+2.Once the projected is started it will display the following menu:
+
+########## Please Select the GasPump ##########
+
+      1. GasPump-1
+      2. GasPump-2
+
+###############################################
+
+3.Please select the type of GasPump-1 or GasPump-2 by pressing "1" or "2"
+  to start execution of GasPump-1 or GasPump-2
+4.For eg. If user enters "1" , then GasPump-1 menu is displayed:
+
+---->System is currently in Start State<----
+
+
+                          GasPump-1
+                  MENU of Operations
+          0. Activate(float, float)
+          1. Start()
+          2. PayCredit()
+          3. Reject()
+          4. Cancel()
+          5. Approved()
+          6. Super()
+          7. Regular()
+          8. StartPump()
+          9. PumpGallon()
+          a. StopPump()
+          q. Quit the program
+
+           GasPump-1 Execution
+
+ #################### Please Select Operation: ###########################
+
+0-Activate, 1-Start, 2-PayCredit, 3-Reject, 4-Cancel, 5-Approved, 6-Super,
+7-Regular, 8-StartPump, 9-PumpGallon, a-StopPump, q-quit
+
+ #########################################################################
+
+[Note : Please note that there are some additional messages provided by the UI along
+        the way to help the tester to track states of GasPump system.
+        Eg. ---->System is currently in Start State<----
+        From above screen you can see this message, this message is kept for just testing purpose only.]
+
+5.From this point the user would select their desired option and press enter.  
+6.If any parameters are needed the driver will Prompt message to user and then
+  use them in the execution of the selected option.
+  Eg:If user enters "0" , it will prompt for input like below for Activate() operations:
+ 
+Operation:  Activate(float a, float b)
+  Enter price of Regular gas per gallon: $
+3.4
+  Enter price of Super gas per gallon: $
+2.3
+
+
+---->System is currently in State S0<----
+
+ #################### Please Select Operation: ###########################
+
+0-Activate, 1-Start, 2-PayCredit, 3-Reject, 4-Cancel, 5-Approved, 6-Super,
+7-Regular, 8-StartPump, 9-PumpGallon, a-StopPump, q-quit
+
+ ######################################################################### 
+ 
+7.To exit from the system, press "q" and hit enter.It will close the driver.
